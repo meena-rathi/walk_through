@@ -267,3 +267,25 @@ main {
         align-self: flex-end;
     }
 }
+
+#times {
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    text-align: center;
+    padding: 10px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+#times h3 {
+    /* Override the heading colour set in general styles */
+    color: #fafafa;
+}
